@@ -33,6 +33,11 @@ function App() {
                 <ReportReview />
               </ProtectedRoute>
             } />
+            <Route path="/save-reports" element={
+              <ProtectedRoute>
+                <SaveReports />
+              </ProtectedRoute>
+            } />
             <Route path="/view/:token" element={<PatientDashboard />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
