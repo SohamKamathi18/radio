@@ -7,6 +7,7 @@ import Dashboard from './pages/Dashboard';
 import NewReport from './pages/NewReport';
 import ReportReview from './pages/ReportReview';
 import PatientDashboard from './pages/PatientDashboard';
+import SaveReports from './pages/SaveReports';
 import ProtectedRoute from './components/ProtectedRoute';
 import './App.css';
 
