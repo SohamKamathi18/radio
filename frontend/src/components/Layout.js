@@ -12,7 +12,8 @@ import {
   Settings, 
   LogOut, 
   Bell,
-  Search
+  Search,
+  Database
 } from 'lucide-react';
 import {
   DropdownMenu,
