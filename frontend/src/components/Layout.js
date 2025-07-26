@@ -32,6 +32,7 @@ const Layout = ({ children }) => {
   const navItems = [
     { path: '/', label: 'Dashboard', icon: Home },
     { path: '/new-report', label: 'New Report', icon: FileText },
+    { path: '/save-reports', label: 'Save Reports', icon: Database },
     { path: '/patients', label: 'Patients', icon: Users },
     { path: '/settings', label: 'Settings', icon: Settings },
   ];
